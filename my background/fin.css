@@ -1,0 +1,10 @@
+body{
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background: url(we-are-mourid-high-resolution-logo-white.png) no-repeat;
+background-size: cover;
+background-position: center;
+
+}

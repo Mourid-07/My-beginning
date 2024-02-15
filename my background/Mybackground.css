@@ -1,0 +1,162 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #105fbe;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: 30px;
+    transition: 0.1s ease;
+
+}
+.navigation a:hover{
+    color: white;
+    transform: scale(2.2);
+}
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(collage-arriere-plan-programmation\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: #000000;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #000000;
+    font-size: 2em;
+    font-weight: 600;
+}
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1); }
+
+.sociale-icones a{
+    color: #000000;
+    font-size: 1.7em;
+    padding-right: 30px
+}
+.sociale-icones a :hover{
+    transition: 0.2s ease;
+    transform: scale(1.1);
+}
+
+.font-text{
+    font-size: medium;
+}
+.font-description{
+    font-size: medium;
+}
+
+.title{
+    color: #003bbc;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-left: 330px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color: #efecec ;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #003bbc;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+.info h3{
+    color:#0a49f6;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+@media screen and (max-width: 20px) {
+    .navigation {
+        display: none; 
+    }
+
+    .logo {
+        padding-left: 20px; 
+    }
+
+    .sociale-icones a {
+        padding-right: 15px; 
+    }
+}

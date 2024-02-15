@@ -1,0 +1,14 @@
+body{
+    background-color: #105fbe;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 350px;
+    font-size: 60px;
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px; 
+    }
+}
+

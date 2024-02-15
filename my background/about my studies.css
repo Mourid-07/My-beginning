@@ -1,0 +1,79 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+.title {
+    color: #000000;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+body{
+
+    background-color: rgb(0, 143, 252);
+}
+
+.aboutmystudies .content{
+    margin-top: 30px;
+}
+
+.aboutmystudies-card{
+    margin-top: 90px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.aboutmystudies-card:hover {
+    transform: scale(1.1);
+}
+
+
+.aboutmystudies-image img{
+    width: 100%;
+    display: flex;
+}
+.aboutmystudies-info {
+    padding: 1em;
+}
+.aboutmystudies-description{
+    
+    font-size:  0.8em;
+    color: #000000;
+
+}
+.social{
+    color: #1300e8;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+.aboutmystudies-teacher {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.content{display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;}
+
+@media screen and (max-width: 600px) {
+    .title {
+        margin-left: 0;
+    }
+    .aboutmystudies-card {
+        width: 80%; 
+    }
+}

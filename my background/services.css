@@ -1,0 +1,84 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(collage-arriere-plan-programmation\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.font-text{
+    font-size: medium;
+}
+.font-description{
+    font-size: 20px;
+}
+.color-link{
+    color: #000000;
+
+}
+    
+
+
+.title{
+    color: #000000;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-left: 550px;
+}
+
+.content {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color: #fbfdff ;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 40px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #003bbc;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+.info h3{
+    color:#0a49f6;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+@media screen and (max-width: 40px) {
+    .title {
+        font-size: 1.5em;
+    }
+
+    .card {
+        width: calc(100% - 20px); 
+        margin: 10px; 
+    }
+}
